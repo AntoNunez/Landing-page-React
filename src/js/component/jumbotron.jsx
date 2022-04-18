@@ -3,7 +3,7 @@ import PropType from "prop-types";
 
 const Jumbotron = (props) => {
 	return (
-		<div className="container py-5 bg-light">
+		<div className="container py-5 my-3 bg-light">
 			<h1 className="display-5 fs-40 fw-light ms-4">
 				{props.titleJumbo}
 			</h1>
